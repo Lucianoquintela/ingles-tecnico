@@ -1,0 +1,36 @@
+.acessar{
+    list-style:none;
+}
+
+.links{
+  text-decoration:none; 
+  color:white;
+  padding:20px 287px;
+  display:block;
+  background-color:green;
+  margin-left:-40px;
+  padding-left:20px; 
+  
+}
+
+.links:hover{
+    background-color:#32CD32;   
+  color:black;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+
+.navegar{
+    height:1000px;
+    width:350px;
+    position:absolute;
+    left:-350px;
+    background-color:#98FB98;  
+  margin-top:-10px;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    transform:translateX(350px);
+}
